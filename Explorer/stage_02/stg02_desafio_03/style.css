@@ -35,6 +35,11 @@ ul {
   padding: 0;
 }
 
+li {
+  margin: 0px 24px;
+}
+
+
 a {
   color: #1f1534;
   text-decoration: none;
@@ -75,6 +80,7 @@ section p {
   color: #7d7987;
 
   margin: 40px 0;
+  width: 438px;
 }
 
 button {
@@ -83,11 +89,12 @@ button {
 
   background: #69B99D;
   border: 0;
-  padding: 0 50px 30px;
+  padding: 15px 32px;
 
   display: flex;
-  justify-content: space-around;
-  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 
   border-radius: 4px;
 
@@ -112,6 +119,7 @@ footer a {
 }
 
 #balls {
+    position: fixed;
     bottom: 0;
     right: 0;
 }
