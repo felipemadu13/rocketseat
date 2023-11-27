@@ -7,7 +7,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.page {
+.container {
   width: 1092px;
   margin: 0 auto;
   padding-top: 65px;
